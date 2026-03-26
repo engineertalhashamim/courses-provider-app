@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Beginner Web Development",
+      "slug": "beginner-web-development",
+      "description": "Learn HTML, CSS, and JavaScript to build your first website.",
+      "price": 29.99,
+      "instructor": "Brad Traversy",
+      "isFeatured": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU9QWLRf4TvQnvaJdOnzgAB3_SLiNsprz73A&s"
+    },
+    {
+      "id": 2,
+      "title": "Advanced Python Programming",
+      "slug": "advanced-python-programming",
+      "description": "Master Python with OOP, advanced modules, and real-world projects.",
+      "price": 49.99,
+      "instructor": "Corey Schafer",
+      "isFeatured": false,
+      "image": "https://www.livewireindia.com/blog/wp-content/uploads/2019/03/Python-Programming-training-1024x537.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Frontend with React.js",
+      "slug": "frontend-reactjs",
+      "description": "Build fast and interactive UIs using React and hooks.",
+      "price": 39.99,
+      "instructor": "Mosh Hamedani",
+      "isFeatured": true,
+      "image": "https://media.licdn.com/dms/image/v2/D4D12AQF3mIuRY29SLA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1718886267338?e=2147483647&v=beta&t=ZHRk24iZhxycBuO0EMCwAZyE_iqbqCbBL75q8m96YDM"
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Development (MERN)",
+      "slug": "fullstack-mern",
+      "description": "Create full-stack apps using MongoDB, Express, React, and Node.js.",
+      "price": 59.99,
+      "instructor": "Colt Steele",
+      "isFeatured": false,
+      "image": "https://i.ytimg.com/vi/-Vd5RRZXIyo/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "title": "DevOps with Docker & Kubernetes",
+      "slug": "devops-docker-kubernetes",
+      "description": "Learn containerization and orchestration for modern DevOps workflows.",
+      "price": 45.00,
+      "instructor": "Kelsey Hightower",
+      "isFeatured": true,
+      "image": "https://i.ytimg.com/vi/XpiU97M3ydM/maxresdefault.jpg"
+    },
+    {
+      "id": 6,
+      "title": "JavaScript Data Structures & Algorithms",
+      "slug": "js-data-structures-algorithms",
+      "description": "Boost your coding interview prep with essential DSA in JavaScript.",
+      "price": 34.99,
+      "instructor": "Clement Mihailescu",
+      "isFeatured": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywe5tuzsQ4C5ponYgDNLlBn4jOzBtfIFJKQ&s"
+    },
+    {
+      "id": 7,
+      "title": "Machine Learning with Python",
+      "slug": "machine-learning-python",
+      "description": "Explore supervised and unsupervised ML using real-world datasets.",
+      "price": 44.99,
+      "instructor": "Andrew Ng",
+      "isFeatured": true,
+      "image": "https://play-lh.googleusercontent.com/-IlnnIpNr8MmXFmPVONy2wUhD_PX7i4ZQ-F0xhXXiKgueLP2x_MpfftFu51BtQ_Al44=w526-h296-rw"
+    },
+    {
+      "id": 8,
+      "title": "Computer Networks Fundamentals",
+      "slug": "computer-networks-fundamentals",
+      "description": "Understand networking layers, protocols, and security basics.",
+      "price": 27.50,
+      "instructor": "David Bombal",
+      "isFeatured": false,
+      "image": "https://study.com/cimages/videopreview/videopreview-full/hp0f3siqf3.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Intro to Cybersecurity",
+      "slug": "intro-to-cybersecurity",
+      "description": "Learn how to secure systems and defend against cyber attacks.",
+      "price": 32.00,
+      "instructor": "John Hammond",
+      "isFeatured": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cCP1dHWmqvLY62a2CYEJ-Zj5Ru2D49MMHw&s"
+    }
+  ]
+}
