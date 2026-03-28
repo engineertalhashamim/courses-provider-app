@@ -2,8 +2,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import type { Transition } from "framer-motion";
-
-
+import Link from "next/link";
 
 const transition: Transition = {
   type: "spring",
@@ -73,7 +72,7 @@ export const Menu = ({
       onMouseLeave={() => setActive(null)} // resets the state
       className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6"
     >
-      {children} 
+      {children}
     </nav>
   );
 };
@@ -112,11 +111,11 @@ export const ProductItem = ({
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
-    <a
+    <Link
       {...rest}
       className="text-neutral-700 dark:text-neutral-200 hover:text-neutral-100 "
-    > 
+    >
       {children}
-    </a>
+    </Link>
   );
 };

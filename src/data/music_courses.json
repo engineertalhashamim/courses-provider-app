@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 {
   "courses": [
     {
@@ -32,7 +24,7 @@
       "id": 3,
       "title": "Frontend with React.js",
       "slug": "frontend-reactjs",
-      "description": "Build fast and interactive UIs using React and hooks.",
+      "description": "Build fast and interactive UIs using React and hooks with modern best practices.",
       "price": 39.99,
       "instructor": "Mosh Hamedani",
       "isFeatured": true,
@@ -53,7 +45,7 @@
       "title": "DevOps with Docker & Kubernetes",
       "slug": "devops-docker-kubernetes",
       "description": "Learn containerization and orchestration for modern DevOps workflows.",
-      "price": 45.00,
+      "price": 45.0,
       "instructor": "Kelsey Hightower",
       "isFeatured": true,
       "image": "https://i.ytimg.com/vi/XpiU97M3ydM/maxresdefault.jpg"
@@ -83,7 +75,7 @@
       "title": "Computer Networks Fundamentals",
       "slug": "computer-networks-fundamentals",
       "description": "Understand networking layers, protocols, and security basics.",
-      "price": 27.50,
+      "price": 27.5,
       "instructor": "David Bombal",
       "isFeatured": false,
       "image": "https://study.com/cimages/videopreview/videopreview-full/hp0f3siqf3.jpg"
@@ -93,7 +85,7 @@
       "title": "Intro to Cybersecurity",
       "slug": "intro-to-cybersecurity",
       "description": "Learn how to secure systems and defend against cyber attacks.",
-      "price": 32.00,
+      "price": 32.0,
       "instructor": "John Hammond",
       "isFeatured": true,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6cCP1dHWmqvLY62a2CYEJ-Zj5Ru2D49MMHw&s"

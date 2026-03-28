@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "../../tailwind.config"
-import Navbar from "@/components/Navbar"
+import "../../tailwind.config";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,10 +28,10 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body
         className={`dark ${geistSans.variable} ${geistMono.variable} antialiased`}
-      > 
-      <div className="relative flex w-full items-center justify-center">
-        <Navbar/>
-      </div>
+      >
+        <div className="relative flex w-full items-center justify-center p-0">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>

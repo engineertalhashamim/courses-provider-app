@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -8,31 +6,31 @@ import { cn } from "@/utils/cn";
 
 export function TestimonialCards() {
   return (
-    <> 
-
-    <div className="relative flex h-[50rem] w-full items-center justify-center bg-white dark:bg-black">
-      <div
-        className={cn(
-          "absolute inset-0",
-          "[background-size:40px_40px]",
-          "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-          "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
-        )}
-        
-      />
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
-  
-  <div className="w-full h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-transparent dark:bg-grid-white/[0.02] items-center justify-center relative overflow-hidden px-4 sm:px-6 lg:px-8">
-    <h2 className="text-3xl font-bold text-center mb-8 z-10">Hear Our Harmony: Voice of Success</h2>
-      <div className="w-full max-w-6xl">
-         <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
+    <>
+      <div className="relative flex md:h-[50rem] h-[34rem] w-full items-center justify-center bg-white dark:bg-black">
+        <div
+          className={cn(
+            "absolute inset-0",
+            "[background-size:40px_40px]",
+            "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
+            "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
+          )}
         />
+        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
+
+        <div className="w-full h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-transparent dark:bg-grid-white/[0.02] items-center justify-center relative overflow-hidden px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-8 z-10">
+            Hear Our Harmony: Voice of Success
+          </h2>
+          <div className="w-full max-w-6xl">
+            <InfiniteMovingCards
+              items={testimonials}
+              direction="right"
+              speed="slow"
+            />
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
     </>
   );
 }
