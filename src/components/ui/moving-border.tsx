@@ -22,12 +22,12 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
+  as?: React.ElementType;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }) {
   return (
     <Component
@@ -80,7 +80,7 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }) => {
   // const pathRef = useRef<any>();
   const pathRef = useRef<SVGRectElement | null>(null);
@@ -113,7 +113,7 @@ export const MovingBorder = ({
         className="absolute h-full w-full"
         width="100%"
         height="100%"
-        {...otherProps}
+        {...(otherProps as React.SVGProps<SVGSVGElement>)}
       >
         <rect
           fill="none"

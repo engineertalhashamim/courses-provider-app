@@ -2,6 +2,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music_courses.json";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 interface Course {
   id: number;
@@ -19,7 +20,7 @@ const page = () => {
         </h1>
         <div className="flex flex-wrap justify-center all-course-sec">
           {courseData.courses.map((course: Course) => (
-            <CardContainer className="inter-var m-4">
+            <CardContainer key={course.id} className="inter-var m-4">
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
                 <CardItem
                   translateZ="50"
@@ -35,7 +36,7 @@ const page = () => {
                   {course.description}
                 </CardItem>
                 <CardItem translateZ="100" className="w-full mt-4">
-                  <img
+                  <Image
                     src={course.image}
                     height="1000"
                     width="1000"

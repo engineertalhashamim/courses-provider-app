@@ -6,7 +6,7 @@ const ContactUs = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const mailToLink = `mailto:engr.talhashamim@gmail.com?subject=Contact Form&body=Email: ${email}%0D%0AMessage: ${message}`;
+  // const mailToLink = `mailto:engr.talhashamim@gmail.com?subject=Contact Form&body=Email: ${email}%0D%0AMessage: ${message}`;
 
   return (
     <>
@@ -15,16 +15,16 @@ const ContactUs = () => {
           Contact Us
         </h1>
         <p className="text-gray-50 text-sm text-neutral-600 dark:text-neutral-400 md:w-[50%] md:px-0 px-6 mx-auto text-center">
-          We're here to help! Whether you have questions about our courses, need
-          support, or just want to say hello — feel free to reach out. Our team
-          is always ready to assist you with any queries. Use the contact form
-          below or email us directly. We aim to respond within 24 hours on
+          We^apos;re here to help! Whether you have questions about our courses,
+          need support, or just want to say hello — feel free to reach out. Our
+          team is always ready to assist you with any queries. Use the contact
+          form below or email us directly. We aim to respond within 24 hours on
           business days.{" "}
         </p>
         <div className="md:w-[50%] md:px-0 px-6 mx-auto flex flex-col gap-5 mt-6">
           <input
             className="bg-black w-full p-4 border border-gray-600 text-sm md:text-base placeholder:text-sm md:placeholder:text-base placeholder-neutral-500"
-            type="text"
+            type="email"
             placeholder="Your email address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
