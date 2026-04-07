@@ -90,7 +90,7 @@ export const WavyBackground = ({
     }
   };
 
-  let animationId: number;
+  // let animationId: number;
 
   const animationIdRef = useRef<number>(0);
   const render = () => {
@@ -108,6 +108,7 @@ export const WavyBackground = ({
     return () => {
       cancelAnimationFrame(animationIdRef.current);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [isSafari, setIsSafari] = useState(false);
