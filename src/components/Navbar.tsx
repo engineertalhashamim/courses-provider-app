@@ -22,7 +22,8 @@ function Navbar({ className }: { className?: string }) {
             item="Home"
           ></MenuItem>
         </Link>
-        <MenuItem setActive={setActive} active={active} item="Our Courses">
+        <Link href="/courses">
+          <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm hover:text-blue-500">
             <HoveredLink href="/courses" className="hover:text-white-500">
               All Courses
@@ -31,6 +32,8 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/courses">Advanced Composition</HoveredLink>
           </div>
         </MenuItem>
+        </Link>
+      
         <Link href={"/contact"}>
           <MenuItem
             setActive={setActive}
